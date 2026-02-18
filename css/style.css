@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7fffd;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Akatab';
+}
+
+header {
+    padding: 40px 40px;
+    background-color: #1a3b55;
+    position: sticky;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.logotext {
+    font-size: 14px;
+    color: #faffdb;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #faffdb;
+    font-size: 20px;
+}
+
+.nav-menu a:hover {
+    color: #76bb27;
+}
+
+h1 {
+    color: #76bb27;
+}
+
+main {
+    padding: 30px 40px;
+    ;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.child {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    color: #1a3b55;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #1a3b55;
+    padding:30px 40px;
+}
+
+ol {
+    list-style-type: none;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+
+.flex-containerchild {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contactform {
+    background-image: linear-gradient(to left, #cdfffb, #88c5ff);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.formdiv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
